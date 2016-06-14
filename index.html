@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Forecase</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+  <div class="leftNav">
+    <button class="btn btn-danger btn-lg webcams">webcams</button>
+    <hr>
+    <button class="btn btn-danger btn-lg">search</button>
+
+  </div>
+
+  <div class="container">
+  <h1>Weather Forecast</h1>
+  <h5>support by WEATHER UNDERGROUND</h5>
+  <hr>
+
+  <p class="simpleText"></p>
+  <div class="simpleForecast">
+  </div>
+
+  <p class="textFC"></p>
+  <div class="textForecast">
+
+  </div>
+
+
+  <!-- template text forecast -->
+  <div class="textForecastBox">
+    <div class="row">
+      <div class="col-xs-2 col-md-2">
+        <img src="" alt="" class="icon">
+      </div>
+      <div class="col-xs-2 col-md-2">
+        <div class="title"></div>
+      </div>
+      <div class="col-xs-8 col-md-8">
+        <div class="fcttext"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- template box simpleforecast-->
+  <div class="simpleForecastBox">
+    <div>
+      <span>&darr;</span><span class="low"></span>
+
+      <span class="high"></span><span>&uarr;</span>
+    </div>
+    <img class="simpleIcon" src="" alt="">
+    <div class="avghumidity"></div>
+    <div class="date"></div>
+  </div>
+
+  </div>
+
+  <div class="footer"></div>
+</body>
+</html>

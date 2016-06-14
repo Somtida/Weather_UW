@@ -1,0 +1,60 @@
+h1{
+  color: #ae7182;
+}
+.textFBox{
+  text-align: center;
+  width: 95%;
+  height: 75px;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 5px;
+  border: 1px solid #eee;
+  font-size: 1.1em;
+  color: blue;
+  border-radius: 4px;
+}
+.simpleBox{
+  display: inline-block;
+  width: 130px;
+  height: 140px;
+  border: 1px solid green;
+  text-align: center;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+}
+.low{
+  padding-left: 15px;
+  float:left;
+  font-size: 1.6em;
+}
+.high{
+  padding-right: 15px;
+  float:right;
+  font-size: 1.6em;
+}
+.textFC, .simpleText{
+  font-size: 1.3em;
+}
+.simpleForecastBox{
+  display: none;
+}
+.leftNav{
+  width: 20%;
+  float: left;
+  border: 1px solid #000;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+}
+.container{
+  float:right;
+  width: 75%;
+}
+.footer{
+  clear: both;
+}
+.btn{
+  width: 120px;
+}
